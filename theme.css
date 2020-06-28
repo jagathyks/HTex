@@ -1,0 +1,70 @@
+grid{
+    background-color: black;
+    color: yellow;
+}
+scrolledwindow{
+    background-color: black;
+}
+dialog{
+    background-color: black;
+    border: 1px solid white;
+}
+notebook#browserpage > header.top { 
+    background-color: black;
+    border-bottom: none;
+}
+notebook#browserpage > header.top > tabs > tab {    
+    border-image: none;
+    border: 1px solid white;
+    border-radius: 8px 8px 0px 0px;
+    border-bottom: none;
+}
+notebook#browserpage > header > tabs > tab:hover {
+    border-image: none;
+    color: red;
+}
+notebook#browserpage > header > tabs > tab:checked {
+    border-color: violet;
+    background-color: black; 
+    border-image: none;
+}
+box#fileview{
+    background-color: black;
+}
+box#folderview{
+    background-color: black;
+}
+box#boxbrowser{
+    background-color: black;
+}
+box#boxterminal{
+    background-color: black;
+}
+box#messagebar{
+    background-color: black;
+}
+label#lblhead{
+    color: green;
+}
+entry#urlbar{
+    color: aqua;
+}
+notebook#terminalpage > header.top { 
+    background-color: black;
+    border-bottom: none;
+}
+notebook#terminalpage > header.top > tabs > tab {    
+    border-image: none;
+    border: 1px solid white;
+    border-radius: 8px 8px 0px 0px;
+    border-bottom: none;
+}
+notebook#terminalpage > header > tabs > tab:hover {
+    border-image: none;
+    color: red;
+}
+notebook#terminalpage > header > tabs > tab:checked {
+    border-color: violet;
+    background-color: black; 
+    border-image: none;
+}
